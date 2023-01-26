@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "outDir": "dist",
+        "allowJs": true,
+        "checkJs": true,
+        "resolveJsonModule": true,  
+    },
+    "include": ["src/**/*", "src/**/*.json"],
+    
+    "exclude": ["node_modules"]
+}
